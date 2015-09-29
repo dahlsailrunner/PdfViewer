@@ -20,7 +20,8 @@ namespace PdfViewer.ViewModels
 
         public void OnNavigatedTo(NavigationParameters parameters)
         {
-            WebSource = "http://www.google.com";
+            WebSource = "https://www.expensesmart.com/imageview.aspx?barcode=06528683557&clientid=2319";
+            //WebSource = "http://www.google.com";
         }
     }
 }

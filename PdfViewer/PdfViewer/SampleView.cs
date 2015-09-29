@@ -12,12 +12,8 @@ namespace PdfViewer
     {
         public SampleView()
         {
-            Content = new StackLayout
-            {
-                Children = {
-                    new WebView { Source = "http://www.google.com" }
-                }
-            };
+            var viewer = new WebView {Source = "http://www.google.com"};
+            Content = viewer;            
         }
     }
 }
